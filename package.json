@@ -1,0 +1,46 @@
+{
+  "name": "ts_orm_cs_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec ts-node src/server.ts",
+    "typeorm": "npx ts-node ./node_modules/typeorm/cli.js",
+    "test": "jest --testTimeout=8000"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/supertest": "^2.0.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.5",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.1.2",
+    "typeorm": "^0.2.41"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcelAssu/ts_orm_cs_api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "express",
+    "pg"
+  ],
+  "author": "Marcel Assunção",
+  "bugs": {
+    "url": "https://github.com/MarcelAssu/ts_orm_cs_api/issues"
+  },
+  "homepage": "https://github.com/MarcelAssu/ts_orm_cs_api#readme",
+  "description": ""
+}

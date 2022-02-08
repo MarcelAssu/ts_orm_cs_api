@@ -1,0 +1,19 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "palermo12",
+    "database": "trabalho_prog2",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations":[
+        "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
